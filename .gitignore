@@ -1,11 +1,9 @@
-Content/BattleGround_sharedassets/Lighting*
-Content/BattleGround_sharedassets/Texture*
-Content/StarterContent*
-StarterContent*
-
 # Custom ignore
-*.uasset
-*.umap
+StarterContent*
+Content/StarterContent*
+Content/AnimStarterPack*
+Content/Blender*
+
 
 # Visual Studio 2015 user specific files
 .vs/
