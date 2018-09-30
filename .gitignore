@@ -2,8 +2,18 @@
 StarterContent*
 Content/StarterContent*
 Content/AnimStarterPack*
-Content/Blender*
-
+Content/Character/FP_Character*
+Content/Character/TP_Character*
+Content/Character/Animations/FP_AnimationClips*
+Content/Character/Animations/TP_AnimationClips*
+Content/Developers*
+Content/Geometry*
+Content/Levels*
+Content/Weapons/Audio*
+Content/Weapons/Projectile*
+Content/Weapons/FPWeapon/Materials*
+Content/Weapons/FPWeapon/Mesh*
+Content/Weapons/FPWeapon/Textures*
 
 # Visual Studio 2015 user specific files
 .vs/
