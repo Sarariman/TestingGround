@@ -27,7 +27,6 @@ AMannequin::AMannequin()
 	Mesh1P->CastShadow = false;
 	Mesh1P->RelativeLocation = FVector(10.0f, 0.0f, -160.0f);
 	Mesh1P->RelativeRotation = FRotator(5.0f, -15.0f, 0.0f);
-	
 }
 // Called when the game starts or when spawned
 void AMannequin::BeginPlay()
@@ -73,7 +72,7 @@ void AMannequin::UnPossessed()
 	Super::UnPossessed();
 	if (!ensure(Gun))
 	{
-		UE_LOG(LogTemp, Error, TEXT("Gun is not available"))
+		UE_LOG(LogTemp, Warning, TEXT("Gun is not available"))
 			return;
 	}
 	UE_LOG(LogTemp, Warning, TEXT("Gun re-attached"))

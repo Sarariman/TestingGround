@@ -14,6 +14,7 @@ Content/Weapons/Projectile*
 Content/Weapons/FPWeapon/Materials*
 Content/Weapons/FPWeapon/Mesh*
 Content/Weapons/FPWeapon/Textures*
+Content/TestingGroundPack*
 
 # Visual Studio 2015 user specific files
 .vs/
@@ -92,3 +93,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Content/Terrain/
