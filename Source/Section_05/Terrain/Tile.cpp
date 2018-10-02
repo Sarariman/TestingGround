@@ -3,7 +3,7 @@
 #include "Tile.h"
 #include "Classes/Engine/World.h"
 #include "DrawDebugHelpers.h"
-
+#include "EngineUtils.h"
 
 // Sets default values
 ATile::ATile()
